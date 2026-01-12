@@ -1,4 +1,6 @@
 # Présentation
+- Projet réalisé avec processing
+
 - Le dossier algorithmes_exemples contient la partie 1 de l'atelier.  
 - Le dossier creation_originale contient la partie 2 de l'atelier.
 
