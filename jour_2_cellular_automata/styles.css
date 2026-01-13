@@ -1,3 +1,78 @@
 body {
     margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    position: relative;
+    overflow: hidden;
+}
+
+h1 {
+    font-size: 4rem;
+    font-weight: bold;
+    color: red;
+    margin: 0;
+    text-transform: uppercase;
+}
+
+p {
+    margin: 0;
+    margin-bottom: 15px;
+}
+
+.game-over {
+    display: none;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    left: 50%;
+    top: 60%;
+    color: red;
+    font-weight: 900;
+    text-transform: uppercase;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    background-color: #000000de;
+    padding: 15px;
+}
+
+/* From Uiverse.io by Voxybuns */
+button {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-transform: uppercase;
+    --button_radius: 0.75em;
+    --button_color: #e8e8e8;
+    --button_outline_color: #000000;
+    font-size: 1rem;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+    border-radius: var(--button_radius);
+    background: var(--button_outline_color);
+    margin: 5px;
+    margin-bottom: 15px;
+}
+
+.button_top {
+    display: block;
+    box-sizing: border-box;
+    border: 2px solid var(--button_outline_color);
+    border-radius: var(--button_radius);
+    padding: 0.75em 1.5em;
+    background: var(--button_color);
+    color: var(--button_outline_color);
+    transform: translateY(-0.2em);
+    transition: transform 0.1s ease;
+}
+
+button:hover .button_top {
+    /* Pull the button upwards when hovered */
+    transform: translateY(-0.33em);
+}
+
+button:active .button_top {
+    /* Push the button downwards when pressed */
+    transform: translateY(0);
 }
