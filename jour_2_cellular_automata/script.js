@@ -116,7 +116,6 @@ let player = {
     color: "blue"
 };
 
-//spawn le joueur dans une case 0
 function spawnPlayer() {
     let startX = Math.floor(cols / 2);
     let startY = Math.floor(rows / 2);
