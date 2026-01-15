@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+:root {
+    --background: #0C141A;
+    --blue-dark: #28487B;
+    --blue-main: #4468A6;
+    --blue-light: #6E94CF;
+    --text: #B9CDEE;
+    --text-strong: #f4ffab;
+    --choice: #c7ff86;
+    --choosen: #00ee38;
+}
+
+
+body {
+    background-color: var(--background);
+}
+
+h1 {
+    color: var(--blue-light);
+    font-family: "Raleway", sans-serif;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+p {
+    color: var(--text);
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1.2rem;
+}
+
+strong {
+    font-weight: 400;
+    color: var(--text-strong);
+}
+
+main {
+    width: 50%;
+    margin: auto;
+}
+
+button {
+    background-color: transparent;
+    color: var(--choice);
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1.1rem;
+    border: none;
+    text-align: start;
+    padding: 0;
+    padding-bottom: 8px;
+}
+
+button:hover {
+    color: var(--choosen);
+    font-weight: 800;
+}
+
+.player-choice {
+    color: var(--choosen);
+}
+
+nav {
+    position: sticky;
+    top: 10px;
+    left: 10px;
+    color: var(--text-strong);
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.choice-container {
+    display: flex;
+    flex-direction: column;
+}
+
+@media (max-width: 768px) { /* ou 600px selon ce que tu veux pour "mobile" */
+    main {
+        width: 90%;
+    }
+}
