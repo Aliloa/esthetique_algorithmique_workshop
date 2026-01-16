@@ -173,7 +173,7 @@ Le trajet est monotone: l’ascenseur, le couloir blindé de caméras, le scanne
                 ],
             },
             {
-                text: "Pizza",
+                text: "Pizza (1 pièce)",
                 chaotic: 1,
                 good: -1,
                 coin: -1,
