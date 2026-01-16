@@ -59,7 +59,7 @@ function loadCharacter(name, path, scale = 1) {
 }
 
 // charger tous tes persos
-loadCharacter('robot1', '/assets/models/ps1__robot/scene.gltf', 0.5);
+loadCharacter('robot1', 'assets/models/ps1__robot/scene.gltf', 0.5);
 // loadCharacter('robot2', '/assets/models/b1n_walking/scene.gltf', 0.5);
 
 function showCharacter(name) {
