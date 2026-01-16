@@ -1,0 +1,8 @@
+Model Information:
+* title:	PS1 | Robot
+* source:	https://sketchfab.com/3d-models/ps1-robot-77e46c970c334e6daae4368b24dc38b2
+* author:	cotrus (https://sketchfab.com/cotrus)
+
+Model License:
+* license type:	SKETCHFAB Standard (https://sketchfab.com/licenses)
+* requirements:	Under basic restrictions, use worldwide, on all types of media, commercially or not, and in all types of derivative works

@@ -1,0 +1,11 @@
+Model Information:
+* title:	B1N Walking
+* source:	https://sketchfab.com/3d-models/b1n-walking-524ffea1509547d8be4ca4c883b74e69
+* author:	Damian (https://sketchfab.com/ohendamian)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "B1N Walking" (https://sketchfab.com/3d-models/b1n-walking-524ffea1509547d8be4ca4c883b74e69) by Damian (https://sketchfab.com/ohendamian) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
